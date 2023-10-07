@@ -1,0 +1,15 @@
+$light-blue: #89f7fe;
+$dark-blue: #66a6ff;
+
+@mixin centerText($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin centerContent($top, $left) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    transform: translate(-50%, -50%);
+}

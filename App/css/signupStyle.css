@@ -1,0 +1,82 @@
+header {
+  height: 15vh;
+  background: #66a6ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.header-page-title {
+  padding-left: 20px;
+  font-weight: 700;
+  color: white;
+  font-size: 1.25rem;
+}
+
+header img {
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+}
+
+#mobile-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 15;
+  top: 0;
+  right: 0;
+  background: #333333;
+  overflow-x: hidden;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#mobile-nav ul {
+  list-style: none;
+  text-align: center;
+  padding-top: 4em;
+}
+
+#mobile-nav li {
+  margin-bottom: 1em;
+}
+
+#mobile-nav li a {
+  font-size: 1.5rem;
+  color: white;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  font-size: 1rem;
+}
+
+#mobile-nav li a:visited {
+  color: white;
+}
+
+.nav-close {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  color: white;
+}
+
+.fa-bars {
+  position: absolute;
+  top: 50%;
+  right: 2em;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.fa-bars, .fa-times {
+  font-size: 1.2rem;
+  color: white;
+}

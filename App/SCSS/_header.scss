@@ -1,0 +1,65 @@
+@import "./variables";
+
+header {
+    height: 15vh;
+    background: #66a6ff;
+    @include centerText(center, center);
+    position: relative;
+    color: white;
+    padding: 0 2em;
+    margin-bottom: 1.5em;
+
+    & img {
+        width: 45%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+#mobile-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    right: 0;
+    background: #333333;
+    overflow-x: hidden;
+    transition: all .5s;
+  
+    & ul {
+      list-style: none;
+      text-align: center;
+      padding-top: 4em;
+    }
+  
+    & li {
+      margin-bottom: 1em;
+    }
+  
+    & li a {
+      font-size: 1.5rem;
+      color: white;
+      transition: all .3s;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+  
+    & li a:visited {
+      color: white;
+    }
+  }
+  
+  .nav-close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: white;
+  }
+  
+  .fa-bars,
+  .fa-times,
+  .fa-chevron {
+    font-size: 1.25rem;
+    color: white;
+  }

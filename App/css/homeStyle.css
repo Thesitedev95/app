@@ -1,0 +1,51 @@
+.home-buttons {
+  width: 200px;
+  margin-bottom: .75em;
+  padding: .55em;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  border: 2px solid white;
+  background: none;
+  color: #fff;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.home-buttons:hover {
+  background: #fff;
+  color: #000;
+}
+
+.accent-button {
+  background: #fff;
+  color: #000;
+}
+
+#body-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app-logo {
+  background: url(/imgs/app_logo1.png);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  margin: 40% auto 0 auto;
+}
+
+#login-btn {
+  margin-bottom: 5em;
+}

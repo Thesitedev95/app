@@ -1,0 +1,108 @@
+{
+    "chips": [
+        {
+            "chip_brand": {
+                "name": "all chips",
+                "image": "/imgs/doritos.jpg"
+            },
+            "is_display": true
+        },
+        {
+            "chip_brand": {
+                "brand": "doritos",
+                "image": "/imgs/doritos.jpg",
+                "chip_flavors": [
+                    {
+                        "nacho cheese": {
+                            "image": "/imgs/doritos.jpg"
+                        },
+                        "cool ranch": {
+                            "image": "/imgs/doritos.jpg"
+                        },
+                        "spicy nacho": {
+                            "image": "/imgs/doritos.jpg"
+                        },
+                        "sweet chili": {
+                            "image": "/imgs/doritos.jpg"
+                        }
+                    }
+                ]
+            },
+            "is_display": false
+        },
+        {
+            "chip_brand": {
+                "brand": "lays",
+                "image": "/imgs/lays.jpg"
+            },
+            "is_display": false
+        },
+        {
+            "chip_brand": {
+                "brand": "tostitos",
+                "image": "/imgs/tostitos.jpg"
+            },
+            "is_display": false
+        },
+        {
+            "chip_brand": {
+                "brand": "ruffles",
+                "image": "/imgs/ruffles.jpg"
+            },
+            "is_display": false
+        }
+    ],
+    "candy": [
+        {
+            "chip_brand": {
+                "name": "all chips",
+                "image": "/imgs/All_chips.jpg"
+            },
+            "is_display": true
+        },
+        {
+            "chip_brand": {
+                "brand": "doritos",
+                "image": "/imgs/doritos.jpg",
+                "chip_flavors": [
+                    {
+                        "nacho cheese": {
+                            "image": "/imgs/doritos.jpg"
+                        },
+                        "cool ranch": {
+                            "image": "/imgs/doritos.jpg"
+                        },
+                        "spicy nacho": {
+                            "image": "/imgs/doritos.jpg"
+                        },
+                        "sweet chili": {
+                            "image": "/imgs/doritos.jpg"
+                        }
+                    }
+                ]
+            },
+            "is_display": false
+        },
+        {
+            "chip_brand": {
+                "brand": "lays",
+                "image": "/imgs/lays.jpg"
+            },
+            "is_display": false
+        },
+        {
+            "chip_brand": {
+                "brand": "tostitos",
+                "image": "/imgs/tostitos.png"
+            },
+            "is_display": false
+        },
+        {
+            "chip_brand": {
+                "brand": "ruffles",
+                "image": "/imgs/ruffles.jpg"
+            },
+            "is_display": false
+        }
+    ]
+}
